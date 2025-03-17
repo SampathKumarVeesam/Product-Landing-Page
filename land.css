@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.pic1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pic1{
+    color: burlywood;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    color: white;
+}
+
+.carousel-caption p {
+    color: white;
+}
+
+.carousel-caption button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.carousel-caption button:hover {
+    background-color: red;
+}
+
+.container{
+    background-color: gray;
+    color:burlywood;
+}
+
+#features {
+    padding: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body i {
+    color: rgb(41, 225, 124);
+}
+
+#testimonials {
+    padding: 2px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: rgb(163, 153, 153);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+.social-links a {
+    margin: 0 10px;
+    color: white;
+}
+
+.social-links a:hover {
+    color: #3e8e41;
+}
